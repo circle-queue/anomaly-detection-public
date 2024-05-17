@@ -65,7 +65,3 @@ python -m anomaly_detection
 
 To add a custom dataset, you need to add a command in [\_\_main\_\_.py](src\anomaly_detection\__main__.py), which invokes [model_builder.py](src\anomaly_detection\model_builder.py). The datasets are assumed to have the following structure
 ```.../{dataset_name}/{train,dev,test}/{label1,label2,label3}/{*.jpg}```
-
-## Architecture
-![](docs/ts_architecture.png)
-source: https://openaccess.thecvf.com/content/CVPR2022/papers/Deng_Anomaly_Detection_via_Reverse_Distillation_From_One-Class_Embedding_CVPR_2022_paper.pdf
