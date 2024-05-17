@@ -1,0 +1,12 @@
+checkpoints*
+*.egg-info
+*__pycache__
+*.sqlite3
+.vscode
+mlruns*
+**/.ipynb_checkpoints
+mlartifacts*
+model
+https:
+*.pkl
+*.png

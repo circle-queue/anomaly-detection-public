@@ -1,0 +1,5 @@
+# These scripts must be run in seperate CMDs and kept alive while metrics are logged
+poetry run mlflow server
+# Allow the notebooks to connect to the mlflow server
+ssh -o ExitOnForwardFailure=yes -R 5000:127.0.0.1:5000 christoffer-sommerlund-thesis
+ssh -o ExitOnForwardFailure=yes -R 5000:127.0.0.1:5000 christoffer-sommerlund-patchcore

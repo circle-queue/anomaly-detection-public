@@ -1,0 +1,7 @@
+.idea/
+__pycache__/
+LabletAnomaly.egg-info/
+condition-ds
+evaluated_results
+mvtec
+results
